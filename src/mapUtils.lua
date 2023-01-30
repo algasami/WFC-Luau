@@ -93,6 +93,7 @@ function mapUtils.generateTile(
 				laskTick = tick()
 				task.wait()
 			end
+			-- TODO: Entropy-based sorting
 			mapUtils.generateTile(map, ruleset, { x = x + 1, y = y }, callback, retry, traversed)
 			mapUtils.generateTile(map, ruleset, { x = x - 1, y = y }, callback, retry, traversed)
 			mapUtils.generateTile(map, ruleset, { x = x, y = y + 1 }, callback, retry, traversed)
