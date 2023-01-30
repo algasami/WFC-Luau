@@ -66,4 +66,4 @@ The algorithm currently does not support custom weights for tiles. I will add th
 
 ## License
 
-to be added
+MIT License
